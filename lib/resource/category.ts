@@ -12,7 +12,7 @@ export const createCategory = async (prevState: unknown, formData: FormData) => 
     }
     const validatedData = await CategoryForm.parseAsync(formValues)
 
-    const res = await fetch("http://localhost:4000/api/category/create", {
+    const res = await fetch(process.env.API_URL + "/category/create", {
       method: "POST",
       headers: {
         'Content-Type': "application/json",
@@ -40,7 +40,7 @@ export const createCategory = async (prevState: unknown, formData: FormData) => 
 }
 
 export const getCategories = async () => {
-  const res = await fetch("http://localhost:4000/api/category/all", { next: { revalidate: 10 } })
+  const res = await fetch(process.env.API_URL + "/category/all", { next: { revalidate: 10 } })
 
   if (res.status !== 200) console.log(res)
 

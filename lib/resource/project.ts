@@ -35,7 +35,7 @@ export const createProject = async (prevState: unknown, formData: FormData) => {
 
         // console.log(uploadFormData)
 
-        const res = await fetch("http://localhost:4000/api/project/create", {
+        const res = await fetch(process.env.API_URL + "/project/create", {
             method: "POST",
             headers: {},
             body: uploadFormData
@@ -60,7 +60,7 @@ export const createProject = async (prevState: unknown, formData: FormData) => {
 }
 
 export const getProjects = async () => {
-    const res = await fetch("http://localhost:4000/api/project/all")
+    const res = await fetch(process.env.API_URL + "/project/all")
 
     if (res.status !== 200) console.log(res)
 
@@ -71,7 +71,7 @@ export const getProjects = async () => {
 
 
 export const getProject = async (id: string) => {
-    const res = await fetch(`http://localhost:4000/api/project/${id}`)
+    const res = await fetch(`${process.env.API_URL}/project/${id}`)
 
     if (res.status !== 200) console.log(res)
 
