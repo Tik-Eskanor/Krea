@@ -60,7 +60,7 @@ export const createProject = async (prevState: unknown, formData: FormData) => {
 }
 
 export const getProjects = async () => {
-    const res = await fetch(process.env.API_URL + "/project/all")
+    const res = await fetch(process.env.API_URL + "/project/all", { next: { revalidate: 10 } })
 
     if (res.status !== 200) console.log(res)
 
