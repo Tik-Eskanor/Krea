@@ -41,7 +41,7 @@ export default function page() {
                                         </p>
                                         <p className='mt-2'>I’m excited to help businesses and individuals bring their ideas to life. Whether you need a sleek portfolio,
                                             a robust e-commerce platform, or a custom web app, let’s connect to make it happen!
-                                            Check out <Link href="/#projects" className='text-blue-700'>my projects</Link>  or <Link href="/#contacts" className='text-blue-700'> contact me </Link> to discuss your next big idea.</p>
+                                            Check out <Link href="/#projects" className='text-blue-700'>my projects</Link>  or <Link href="#contact" className='text-blue-700'> contact me </Link> to discuss your next big idea.</p>
 
                                     </div>
                                     <div className="btn-wrapper mt-5">

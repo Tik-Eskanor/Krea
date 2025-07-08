@@ -37,7 +37,6 @@ export default async function page() {
                     </td>
                   </tr>
                 ))}
-
               </tbody>
             </table>
           </div>

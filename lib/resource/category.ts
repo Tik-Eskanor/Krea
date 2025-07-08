@@ -40,7 +40,7 @@ export const createCategory = async (prevState: unknown, formData: FormData) => 
 }
 
 export const getCategories = async () => {
-  const res = await fetch(process.env.API_URL + "/category/all", { next: { revalidate: 10 } })
+  const res = await fetch(process.env.API_URL + "/category/all")
 
   if (res.status !== 200) console.log(res)
 
