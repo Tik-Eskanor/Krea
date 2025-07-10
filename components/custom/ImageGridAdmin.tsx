@@ -28,10 +28,9 @@ export default function ImageGridAdmin({ projectData }: { projectData: Project |
                 <a key={item._id}
                     href={item.url}
                     data-pswp-width="1024"
-                    data-pswp-height="750"
-                    target="_blank"
+                    data-pswp-height="550"
                     className='basis-[47%] md:basis-[23%] block'>
-                    <Image src={item.url || ""} alt='' width={1000} height={1000} className='w-full object-cover rounded-md border border-white' />
+                    <Image src={item.url || ""} alt='' className='w-full h-auto object-cover rounded-md border border-white' />
                 </a>
             ))}
         </div>
