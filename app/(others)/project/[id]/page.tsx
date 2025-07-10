@@ -1,5 +1,4 @@
 import { getProject } from '@/lib/resource/project'
-import Image from 'next/image'
 import ProjectInfo from '@/components/custom/admin/ProjectInfo';
 import ImageGrid from '@/components/custom/ImageGrid';
 

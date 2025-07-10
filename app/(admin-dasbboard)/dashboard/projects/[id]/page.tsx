@@ -5,6 +5,7 @@ import React from 'react'
 import { BsArrowRight } from "react-icons/bs";
 import Image from 'next/image'
 import ProjectInfoTable from '@/components/custom/admin/ProjectInfoTable';
+import ImageGridAdmin from '@/components/custom/ImageGridAdmin';
 
 type Param = {
     params: Promise<{ id: string }>
@@ -27,13 +28,7 @@ export default async function page({ params }: Param) {
                         <Image src={projectData?.image.url || ""} alt='' width={1000} height={1000} />
                     </div>
                     {projectData?.images.length ? (
-                        <div className='flex justify-center gap-3 flex-wrap p-3 bg-gray-400'>
-                            {projectData?.images.map((item) => (
-                                <div key={item._id} className='basis-[47%] md:basis-[23%]'>
-                                    <Image src={item.url || ""} alt='' width={1000} height={1000} className='w-full object-cover rounded-md border border-white' />
-                                </div>
-                            ))}
-                        </div>
+                        <ImageGridAdmin projectData={projectData} />
                     ) : ""}
 
                     <div className="">
