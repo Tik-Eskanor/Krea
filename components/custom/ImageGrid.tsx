@@ -51,10 +51,10 @@ export default function ImageGrid({ projectData }: { projectData: Project | unde
                                 <a key={item._id}
                                     href={item.url}
                                     data-pswp-width="1024"
-                                    data-pswp-height="768"
+                                    data-pswp-height="500"
                                     target="_blank"
                                     className='basis-[47%] md:basis-[23%] block'>
-                                    <img src={item.url || ""} alt='' className='w-full h-full object-cover rounded-md border border-white' />
+                                    <img src={item.url || ""} alt='' className='w-full h-auto object-contain rounded-md border border-white' />
                                 </a>
                             ))}
                         </div>
