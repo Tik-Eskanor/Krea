@@ -8,7 +8,7 @@ export default function ProjectCard(card: Project) {
       <a href={`/project/${card._id}`}>
         <div className="project-item mb-4">
           <div className="img">
-            <Image src={card.image.url} className="w-full" width={500} height={500} alt="" />
+            <Image src={card.image.url} className="w-full h-[120px] object-cover" width={500} height={500} alt="" />
           </div>
           <div className="py-4 px-3">
             <h4 className="text-uppercase title">{card.name.length > 18 ? card.name.substring(0, 18) + "..." : card.name}</h4>
