@@ -12,9 +12,9 @@ export default function page() {
                         <div className="">
                             <div className="flex items-center flex-wrap">
                                 <div className="w-full md:w-6/12 px-7">
-                                    <div className="texts">
+                                    <div className="texts mt-8 md:mt-0">
                                         <h1 className='flex gap-2'><span>!Hi again</span><img src="/images/hi.png" className="waver" /></h1>
-                                        <small className="mb-1">Let me start over</small>
+                                        <small className="mb-2">Let me start over</small>
                                         <p>
                                             My name is <b>Oladimeji Adegboyega</b>, but you can call me <b>Eskanor</b>.<br />
                                             I am a Fullstack Web Developer Crafting Seamless Digital Experiences.
