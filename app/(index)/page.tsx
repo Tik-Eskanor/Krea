@@ -45,12 +45,12 @@ export default async function page() {
                             <h1 className='flex items-center'>Eskan <span> <ImSpinner9 size={35} className='px-[3px] ' /></span> r</h1>
                             <h2 className=''>Full Stack Developer</h2>
                             <div className="btn-wrapper">
-                                <a href="CV/CV.docx" className="btn px-2 py-1 text-center mt-2 rounded" download>Download CV</a>
+                                <a href="/cv.pdf" download className="btn px-2 py-2 md:py-1 text-center mt-2 rounded">Download CV</a>
                             </div>
                         </div>
                         <div className="hire-me-wrapper">
-                            <div className="hire-me">
-                                <a href="about.php">Hire me <li className="fas fa-arror-right"></li></a>
+                            <div className="flex justify-center items-center w-[80px] h-[80px] border-2 rounded-full border-white ">
+                                <a href="#about" className='text-white text-lg font-medium leading-6 '>Hello<br /> World</a>
                             </div>
                         </div>
                     </div>
@@ -80,14 +80,14 @@ export default async function page() {
                                         <small>Let me introduce myself</small>
                                         <h1>I'm Eskanor</h1>
                                         <p>
-                                            I’m a fullstack web developer with 4 years of experience creating responsive,
+                                            I’m a fullstack web developer with 5 years of experience creating responsive,
                                             high-performance websites and apps. From sleek frontends in React and Tailwind CSS to scalable
                                             backends with Node.js and MongoDB, I bring ideas to life with clean code and a user-first mindset.
                                         </p>
                                         <p className='flex gap-2 mt-3'><FaQuoteLeft size={15} /> So relax you're in good hands. <FaQuoteRight size={15} /></p>
                                     </div>
                                     <div className="btn-wrapper mt-10">
-                                        <a href="CV/CV.docx" className="btnn btnn1" download>Download CV</a>
+                                        <a href="/cv.pdf" className="btnn btnn1" download>Download CV</a>
                                         <a href="/about" className="btnn btnn2">Read more</a>
                                     </div>
                                 </div>

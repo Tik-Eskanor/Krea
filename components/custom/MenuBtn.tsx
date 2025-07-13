@@ -15,11 +15,11 @@ export default function MenuBtn() {
       </div>
       <nav id="nav" className={`h-[0px] ${active && "h-screen"}`}>
         <ul>
-          <li><Link href="/">Home</Link></li>
-          <li><Link href="/#about">About</Link></li>
-          <li><Link href="/#skills">Skills</Link></li>
-          <li><Link href="/#projects">Projects</Link></li>
-          <li><Link href="#contact">Contact</Link></li>
+          <li onClick={() => setActive(false)}><Link href="/">Home</Link></li>
+          <li onClick={() => setActive(false)}><Link href="/#about">About</Link></li>
+          <li onClick={() => setActive(false)}><Link href="/#skills">Skills</Link></li>
+          <li onClick={() => setActive(false)}><Link href="/#projects">Projects</Link></li>
+          <li onClick={() => setActive(false)}><Link href="#contact">Contact</Link></li>
         </ul>
         <div className="about-social">
           <a href="https://web.facebook.com/profile.php?id=100091377859958" className="link-item notice2"><FaFacebook className='text-gray-400' /> </a>
