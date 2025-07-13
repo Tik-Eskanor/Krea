@@ -19,8 +19,8 @@ export default function Footer() {
                                     <h1 className='text-4xl'>Eskanor</h1>
                                     <div className="useful-links mt-4">
                                         <Link href="https://web.facebook.com/profile.php?id=100091377859958" className="flex gap-2 mb-4 text-lg items-center"><span><FaFacebook className='text-gray-400' /> </span> <span className='transition-all duration-300 ease-in-out hover:ml-8 block'>Facebook</span></Link>
-                                        <Link href="https://web.facebook.com/profile.php?id=100091377859958" className="flex gap-2 mb-4 text-lg items-center"><span><FaTwitter className='text-gray-400' /> </span> <span className='transition-all duration-300 ease-in-out hover:ml-4 block'>Twitter</span></Link>
-                                        <Link href="https://web.facebook.com/profile.php?id=100091377859958" className="flex gap-2 mb-4 text-lg items-center"><span><FaLinkedin className='text-gray-400' /> </span> <span className='transition-all duration-300 ease-in-out hover:ml-4 block'>Linkedin</span></Link>
+                                        <Link href="https://twitter.com/TEskanor79367" className="flex gap-2 mb-4 text-lg items-center"><span><FaTwitter className='text-gray-400' /> </span> <span className='transition-all duration-300 ease-in-out hover:ml-4 block'>Twitter</span></Link>
+                                        <Link href="https://www.linkedin.com/in/eskanor-tik-17b128271/" className="flex gap-2 mb-4 text-lg items-center"><span><FaLinkedin className='text-gray-400' /> </span> <span className='transition-all duration-300 ease-in-out hover:ml-4 block'>Linkedin</span></Link>
                                     </div>
                                 </div>
                             </div>

@@ -24,7 +24,7 @@ export default function MenuBtn() {
         <div className="about-social">
           <a href="https://web.facebook.com/profile.php?id=100091377859958" className="link-item notice2"><FaFacebook className='text-gray-400' /> </a>
           <a href="https://twitter.com/TEskanor79367" className="link-item notice2"><FaTwitter className='text-gray-400' /></a>
-          <a href="www.linkedin.com/in/eskanor-tik-17b128271" className="link-item notice2"><FaLinkedin className='text-gray-400' /></a>
+          <a href="https://www.linkedin.com/in/eskanor-tik-17b128271/" className="link-item notice2"><FaLinkedin className='text-gray-400' /></a>
         </div>
         <div onClick={() => setActive(false)} className="absolute top-10 right-10 cursor-pointer">
           <IoIosCloseCircleOutline size={30} className='text-gray-400' />

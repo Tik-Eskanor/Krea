@@ -45,7 +45,7 @@ export default function page() {
 
                                     </div>
                                     <div className="btn-wrapper mt-5">
-                                        <a href="CV/CV.docx" className="btnn btnn1" download>Download CV</a>
+                                        <a href="/cv.pdf" className="btnn btnn1" download>Download CV</a>
                                         <Link href="/#about" className="btnn btnn2"><i className="fas fa-arrow-left"></i> Back</Link>
                                     </div>
                                 </div>
@@ -57,7 +57,7 @@ export default function page() {
                                         <div className="about-social">
                                             <a href="https://web.facebook.com/profile.php?id=100091377859958" className="link-item notice2"><FaFacebook className='text-gray-400' /> </a>
                                             <a href="https://twitter.com/TEskanor79367" className="link-item notice2"><FaTwitter className='text-gray-400' /></a>
-                                            <a href="www.linkedin.com/in/eskanor-tik-17b128271" className="link-item notice2"><FaLinkedin className='text-gray-400' /></a>
+                                            <a href="https://www.linkedin.com/in/eskanor-tik-17b128271/" className="link-item notice2"><FaLinkedin className='text-gray-400' /></a>
                                         </div>
                                     </div>
                                 </div>
