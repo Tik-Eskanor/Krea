@@ -1,7 +1,6 @@
 import Slider from '@/components/Slider'
 import { featuresData } from '../lib/data'
 import Link from 'next/link'
-import Image from 'next/image'
 import { MdLibraryBooks } from 'react-icons/md'
 import { FaCreditCard } from 'react-icons/fa6'
 
