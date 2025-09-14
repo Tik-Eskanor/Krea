@@ -26,7 +26,7 @@ export default function page() {
                                         <div className='text-sm md:text-[12px] max-w-[200px] md:max-w-[170px]'>{data.description}</div>
                                     </div>
                                 </div>
-                                <Link href="" className='inline-block rounded-xl px-4 py-1 text-xs bg-gray-100'>Open</Link>
+                                <Link href="" className='inline-block rounded-xl px-4 py-1 text-black text-xs bg-gray-100'>Open</Link>
                             </div>
                         )
                     })}

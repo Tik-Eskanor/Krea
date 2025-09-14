@@ -75,8 +75,8 @@ export default function Slider() {
 
                     {/* buttons for next and previous slide */}
                     <div className='flex ml-auto gap-2 -mt-3 pr-5 md:pr-0'>
-                        <button className="bg-gray-100 p-1 rounded-full cursor-pointer" onClick={scrollPrev}><IoIosArrowBack /></button>
-                        <button className="bg-gray-100 p-1  rounded-full cursor-pointer" onClick={scrollNext}><IoIosArrowForward /></button>
+                        <button className="bg-gray-100 p-1 rounded-full cursor-pointer" onClick={scrollPrev}><IoIosArrowBack className='text-black' /></button>
+                        <button className="bg-gray-100 p-1  rounded-full cursor-pointer" onClick={scrollNext}><IoIosArrowForward className='text-black' /></button>
                     </div>
                 </div>
             </div>

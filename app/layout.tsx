@@ -2,13 +2,11 @@ import type { Metadata } from "next";
 
 import "./globals.css";
 import NavBar from "@/components/NavBar";
-import { ThemeProvider } from "next-themes";
 import Provider from "@/components/ThemeProvider";
 import Image from "next/image";
 
 export const metadata: Metadata = {
-  title: "Eskanor",
-  description: "Fullstack web developer",
+  title: "Krea"
 };
 
 export default function RootLayout({
