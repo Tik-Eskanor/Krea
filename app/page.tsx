@@ -12,17 +12,17 @@ export default function page() {
             </section>
 
             <section className='mt-10 px-5 mb-5'>
-                <div className="font-semibold">Generate</div>
+                <div className="font-semibold mb-2">Generate</div>
                 <div className="flex flex-wrap justify-between ">
                     {featuresData.map((data) => {
                         const Icon = data.icon
                         return (
-                            <div key={data.id} className='basis-[100%] md:basis-[24.5%] flex items-center justify-between p-2'>
+                            <div key={data.id} className='basis-[100%] md:basis-[24.5%] flex items-center justify-between py-2'>
                                 <div className='flex gap-2 justify-center items-start mb-3'>
                                     <div className={`p-[10px] rounded-xl ${data.color}`}><Icon size={23} className='text-white' /></div>
                                     <div>
                                         <div className='text-base md:text-sm font-semibold'>{data.title}</div>
-                                        <div className='text-sm md:text-[12px] max-w-[170px]'>{data.description}</div>
+                                        <div className='text-sm md:text-[12px] max-w-[180px]  md:max-w-[170px]'>{data.description}</div>
                                     </div>
                                 </div>
                                 <Link href="" className='inline-block rounded-xl px-4 py-1 text-black text-xs bg-gray-100'>Open</Link>
