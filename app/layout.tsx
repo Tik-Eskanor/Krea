@@ -24,12 +24,12 @@ export default function RootLayout({
           </main>
           <section className="bg-black/90">
             <div className="container mx-auto">
-              <div className="flex justify-between items-center p-4 text-white/90">
+              <div className="flex flex-wrap justify-between items-center p-4 text-white/90">
                 <div className="flex gap-3 items-center">
                   <Image src="/krea.png" alt='krea' width={1000} height={1000} className='w-[45px] h-[45px] rounded-xl' />
                   <div className="text-2xl">Krea AI</div>
                 </div>
-                <div className="">
+                <div className="min-w-[400px]">
                   <span className="text-2xl inline-block mr-5">curated by</span>
                   <span className="text-3xl inline-block font-semibold">Mobbin</span>
                 </div>

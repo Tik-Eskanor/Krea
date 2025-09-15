@@ -41,7 +41,7 @@ export default function Slider() {
                             // slid element
                             <div className="embla__slide max-w-[780px] px-5" key={data.id}>
                                 <div className='relative'>
-                                    <Image src={data.image} alt='slide' width={1000} height={1000} className='z-[-1] absolute w-full h-full left-0 top-0 rounded-2xl object-cover' />
+                                    <Image src={data.image} alt='slide' width={1000} height={1000} className='z-[-1] absolute w-full h-full left-0 top-0 rounded-2xl object-cover object-left' />
                                     <div className="p-5">
                                         <span className='font-semibold text-[10px] text-gray-300 opacity-60'>{data.model}</span>
                                         <div className="text-5xl md:text-7xl font-bold text-center text-white mt-28">{data.title}</div>

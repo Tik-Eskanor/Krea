@@ -36,7 +36,7 @@ export const featuresData = [
     {
         id: 1,
         title: "Image",
-        description: "Generate complex image with the brand new nd powerful.",
+        description: "Generate complex image with the brand new nd powerful. ",
         icon: FaRegImage,
         color: "bg-gradient-to-t from-gray-400 to-gray-800"
     },
