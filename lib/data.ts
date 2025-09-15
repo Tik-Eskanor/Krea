@@ -38,56 +38,68 @@ export const featuresData = [
         title: "Image",
         description: "Generate complex image with the brand new nd powerful. ",
         icon: FaRegImage,
-        color: "bg-gradient-to-t from-gray-400 to-gray-800"
+        color: "bg-gradient-to-t from-gray-400 to-gray-800",
+        new: true
     },
     {
         id: 2,
         title: "Video",
         description: "Generate videos with custom styles, Runway, Luma and more",
         icon: FaVideo,
-        color: "bg-orange-400"
+        color: "bg-orange-400",
+        new: false
+
     },
     {
         id: 3,
         title: "Realtime",
         description: "Realtime AI rendering on a canva instant feedback loops",
         icon: TbBallpenFilled,
-        color: "bg-gradient-to-t from-gray-200 to-blue-500"
+        color: "bg-gradient-to-t from-gray-200 to-blue-500",
+        new: false,
+
     },
     {
         id: 4,
         title: "Enhancer",
         description: "Upscale and enhance images and videos up to 22k",
         icon: FaWandMagicSparkles,
-        color: "bg-gradient-to-t from-gray-500 to-slate-950"
+        color: "bg-gradient-to-t from-gray-500 to-slate-950",
+        new: true
     },
     {
         id: 5,
         title: "Edit",
         description: "Add objects, change styles, or expand photos or generations",
         icon: CiPen,
-        color: "bg-gradient-to-t from-gray-400 to-purple-900"
+        color: "bg-gradient-to-t from-gray-400 to-purple-900",
+        new: true
     },
     {
         id: 6,
         title: "Video Lipsync",
         description: "Lip sync any video to any audio",
         icon: LuMicVocal,
-        color: "bg-gradient-to-t from-gray-400 to-red-900"
+        color: "bg-gradient-to-t from-gray-400 to-red-900",
+        new: true
     },
     {
         id: 7,
         title: "Motion Transfer",
         description: "Transfer motion to images and inanimate characters",
         icon: IoAccessibility,
-        color: "bg-black"
+        color: "bg-black",
+        new: true
+
     },
     {
         id: 8,
         title: "Train",
         description: "Teach Kear to replicate your style, product or character",
         icon: BsTrainFreightFront,
-        color: "bg-blue-400"
+        color: "bg-blue-400",
+        new: false
+
     },
 
 ]

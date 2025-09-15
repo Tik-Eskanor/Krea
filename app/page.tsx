@@ -21,7 +21,9 @@ export default function page() {
                                 <div className='flex gap-2 justify-center items-start mb-3'>
                                     <div className={`p-[10px] rounded-xl ${data.color}`}><Icon size={23} className='text-white' /></div>
                                     <div>
-                                        <div className='text-base md:text-sm font-semibold'>{data.title}</div>
+                                        <div className='text-base md:text-sm font-semibold flex items-center gap-2 mb-[2px]'>
+                                            {data.title} {data.new && <span className='inline-block text-white bg-blue-700 rounded-[10px] px-2 py-[2px]'>New</span>}
+                                        </div>
                                         <div className='text-sm md:text-[12px] max-w-[180px]  md:max-w-[170px]'>{data.description}</div>
                                     </div>
                                 </div>
