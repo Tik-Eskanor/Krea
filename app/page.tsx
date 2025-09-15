@@ -18,11 +18,11 @@ export default function page() {
                         const Icon = data.icon
                         return (
                             <div key={data.id} className='basis-[100%] md:basis-[24.5%] flex items-center justify-between p-2'>
-                                <div className='flex gap-2 justify-center items-center mb-3'>
+                                <div className='flex gap-2 justify-center items-start mb-3'>
                                     <div className={`p-[10px] rounded-xl ${data.color}`}><Icon size={23} className='text-white' /></div>
                                     <div>
                                         <div className='text-base md:text-sm font-semibold'>{data.title}</div>
-                                        <div className='text-sm md:text-[12px] max-w-[200px] md:max-w-[170px]'>{data.description}</div>
+                                        <div className='text-sm md:text-[12px] max-w-[170px]'>{data.description}</div>
                                     </div>
                                 </div>
                                 <Link href="" className='inline-block rounded-xl px-4 py-1 text-black text-xs bg-gray-100'>Open</Link>

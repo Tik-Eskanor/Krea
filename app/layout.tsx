@@ -29,7 +29,7 @@ export default function RootLayout({
                   <Image src="/krea.png" alt='krea' width={1000} height={1000} className='w-[45px] h-[45px] rounded-xl' />
                   <div className="text-2xl">Krea AI</div>
                 </div>
-                <div className="min-w-[400px]">
+                <div className="min-w-[250px]">
                   <span className="text-2xl inline-block mr-5">curated by</span>
                   <span className="text-3xl inline-block font-semibold">Mobbin</span>
                 </div>
